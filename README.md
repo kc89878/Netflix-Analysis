@@ -12,4 +12,4 @@ In this project we will implement an end to end ELT project. ELT stands for Extr
 5. Find the list of directors who have created horror and comedy movies both?
 
 ### Reference
-Project created by Ankit Bansal
+Project Created by Ankit Bansal
