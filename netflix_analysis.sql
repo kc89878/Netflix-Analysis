@@ -1,7 +1,7 @@
 --Netflix Data Analysis
 ------------------------------------------------------------------------------------------------------------------------
 /*1. For each director count the no of movies and tv shows created by them in separate columns 
-     for directors who have created tv shows and movies both */
+     for directors who have created tv shows and movies both? */
 select nd.director 
 ,COUNT(distinct case when n.type = 'Movie' then n.show_id end) as no_of_movies
 ,COUNT(distinct case when n.type = 'TV Show' then n.show_id end) as no_of_tvshow
@@ -11,7 +11,7 @@ group by nd.director
 having COUNT(distinct n.type) > 1
 
 ------------------------------------------------------------------------------------------------------------------------
---2 Which five country has highest number of comedy movies 
+--2. Which five country has highest number of comedy movies? 
 select top 5 nc.country , COUNT(distinct ng.show_id) as no_of_movies
 from netflix_genre ng
 inner join netflix_country nc on ng.show_id = nc.show_id
@@ -21,7 +21,7 @@ group by  nc.country
 order by no_of_movies desc
 
 ------------------------------------------------------------------------------------------------------------------------
---3 For each year (as per date added to netflix), which director has maximum number of movies released
+--3. For each year (as per date added to netflix), which director has maximum number of movies released?
 with cte as (
 select nd.director, YEAR(date_added) as date_year, count(n.show_id) as no_of_movies
 from netflix n
@@ -37,7 +37,7 @@ from cte
 select * from cte2 where rn = 1
 
 ------------------------------------------------------------------------------------------------------------------------
---4. What is average duration of movies in each genre
+--4. What is average duration of movies in each genre?
 select ng.genre , avg(cast(REPLACE(duration,' min','') AS int)) as avg_duration
 from netflix n
 inner join netflix_genre ng on n.show_id = ng.show_id
@@ -46,7 +46,7 @@ group by ng.genre
 order by avg_duration
 
 ------------------------------------------------------------------------------------------------------------------------
---5. Find the list of directors who have created horror and comedy movies both.
+--5. Find the list of directors who have created horror and comedy movies both?
 --   Display director names along with number of comedy and horror movies directed by them 
 select nd.director
 , count(distinct case when ng.genre = 'Comedies' then n.show_id end) as no_of_comedy 
