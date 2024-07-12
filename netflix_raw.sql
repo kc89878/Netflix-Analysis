@@ -1,6 +1,6 @@
 --set primary key.
 --changed all the data type.
---corrected director [varchar] -> [nvarchar] to show korean, japenese and chinese.
+--corrected title [varchar] -> [nvarchar] to show korean, japenese and chinese.
 create TABLE [dbo].[netflix_raw](
     [show_id] [varchar](10) primary key,
     [type] [varchar](10) NULL,
