@@ -22,21 +22,31 @@ We will leverage these questions to optimize Netflix's content strategy and enha
 
 Upon completing the analysis, we can make an informed business decision.
 
+-----------------------------------------------------------------------------------------------------------------------------------
+
 1. Content Curation
 
 By understanding which directors have created a successful mix of both movies and TV shows, Netflix can collaborate with these directors for exclusive content creation. This can attract a wider audience and drive subscriptions. 
+
+-----------------------------------------------------------------------------------------------------------------------------------
 
 2. Localization
 
 Identifying the top five countries with the highest number of comedy movies can help Netflix tailor its content strategy for these regions. They can invest in producing more localized comedy content to cater to specific audience preferences.
 
+-----------------------------------------------------------------------------------------------------------------------------------
+
 3. Release Strategy
 
 Knowing which directors have consistently released movies each year can help Netflix plan their content release calendar strategically. By partnering with prolific directors, Netflix can ensure a steady flow of engaging content for subscribers.
 
+-----------------------------------------------------------------------------------------------------------------------------------
+
 4. Optimized Content Length
 
 Understanding the average duration of movies in each genre can guide Netflix in producing content that aligns with viewer preferences. This data can help in optimizing content length to keep audiences engaged and satisfied.
+
+-----------------------------------------------------------------------------------------------------------------------------------
 
 5. Genre Diversification
 
