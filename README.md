@@ -4,7 +4,7 @@ In this project we will implement an end to end ELT project. ELT stands for Extr
 
 ![Netflix-Earnings-Culture-1240099891](https://github.com/kc89878/Netflix-Analysis/assets/79961717/050894fa-fcd0-40e4-8d65-a52fa02afc36)
 
-## Business questions
+## Business Questions
 
 We will leverage these questions to optimize Netflix's content strategy and enhance audience engagement for increased profitability.
 
@@ -19,6 +19,10 @@ We will leverage these questions to optimize Netflix's content strategy and enha
 5. Find the list of directors who have created horror and comedy movies both?
 
 ------------------------------------------------------------------------------------------------------------------
+
+## Business decision
+
+Upon completing the analysis, we can make an informed business decision.
 
 ### Content Curation
 
