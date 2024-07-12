@@ -6,7 +6,7 @@ In this project we will implement an end to end ELT project. ELT stands for Extr
 
 ## Business questions
 1. For each director count the no of movies and tv shows created by them in separate columns for directors who have created tv shows and movies both?
-2. Which five country has highest number of comedy movies?
+2. Which five countries has highest number of comedy movies?
 3. For each year (as per date added to netflix), which director has maximum number of movies released?
 4. What is average duration of movies in each genre?
 5. Find the list of directors who have created horror and comedy movies both?
